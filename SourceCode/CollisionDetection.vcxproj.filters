@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="BunnyPShader.hlsl">
+      <Filter>App</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexMeshLayoutShader.hlsl">
+      <Filter>Engine\GraphicsEngine</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShader.hlsl">
+      <Filter>App</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader.hlsl">
+      <Filter>App</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AppWindow.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="AABBTree.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDetection.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBuffer.cpp">
+      <Filter>Engine\GraphicsEngine\RenderSystem\ConstantBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceContext.cpp">
+      <Filter>Engine\GraphicsEngine\RenderSystem\DeviceContext</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>Engine\GraphicsEngine\RenderSystem\IndexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelShader.cpp">
+      <Filter>Engine\GraphicsEngine\RenderSystem\PixelShader</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapChain.cpp">
+      <Filter>Engine\GraphicsEngine\RenderSystem\SwapChain</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Engine\GraphicsEngine\ResourceManager\MeshManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshManager.cpp">
+      <Filter>Engine\GraphicsEngine\ResourceManager\MeshManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Engine\GraphicsEngine\ResourceManager\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Engine\GraphicsEngine\ResourceManager\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>Engine\GraphicsEngine\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Engine\GraphicsEngine\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsEngine.cpp">
+      <Filter>Engine\GraphicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="primitivetest.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>Engine\GraphicsEngine\RenderSystem\VertexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexShader.cpp">
+      <Filter>Engine\GraphicsEngine\RenderSystem\VertexShader</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>Engine\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Engine\WindowingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>Engine\GraphicsEngine\RenderSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppWindow.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AABBTree.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetection.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>Engine\GraphicsEngine\RenderSystem\ConstantBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceContext.h">
+      <Filter>Engine\GraphicsEngine\RenderSystem\DeviceContext</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>Engine\GraphicsEngine\RenderSystem\IndexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelShader.h">
+      <Filter>Engine\GraphicsEngine\RenderSystem\PixelShader</Filter>
+    </ClInclude>
+    <ClInclude Include="SwapChain.h">
+      <Filter>Engine\GraphicsEngine\RenderSystem\SwapChain</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Engine\GraphicsEngine\ResourceManager\MeshManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshManager.h">
+      <Filter>Engine\GraphicsEngine\ResourceManager\MeshManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Engine\GraphicsEngine\ResourceManager\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Engine\GraphicsEngine\ResourceManager\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Engine\GraphicsEngine\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Engine\GraphicsEngine\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsEngine.h">
+      <Filter>Engine\GraphicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Prerequisites.h">
+      <Filter>Engine\GraphicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="primitivetest.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Engine\GraphicsEngine\RenderSystem\VertexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShader.h">
+      <Filter>Engine\GraphicsEngine\RenderSystem\VertexShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4x4.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4D.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexMesh.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="InputListener.h">
+      <Filter>Engine\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>Engine\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Engine\WindowingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>Engine\GraphicsEngine\RenderSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{3b61322d-d876-4ec6-8de1-1f8173e49b4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{8cf1f785-eb27-4608-9281-5203b3b8531f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{1126fd1d-7429-4a28-abe7-158feaca3eb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GraphicsEngine">
+      <UniqueIdentifier>{6fc9b6b1-fe9e-4930-ac2e-a9fb3741bddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GraphicsEngine\RenderSystem">
+      <UniqueIdentifier>{ea68446b-2d2e-4cf3-ab3d-a2edf78fd3bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GraphicsEngine\RenderSystem\ConstantBuffer">
+      <UniqueIdentifier>{eb0b8566-5d61-4ed7-9ee4-160fc105ac4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GraphicsEngine\RenderSystem\DeviceContext">
+      <UniqueIdentifier>{7111a6fd-70bb-474f-8046-04151e98d2b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GraphicsEngine\RenderSystem\IndexBuffer">
+      <UniqueIdentifier>{e9a3c432-81a4-4912-aaa3-64d455955e3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GraphicsEngine\RenderSystem\PixelShader">
+      <UniqueIdentifier>{57e0cf7a-f751-47eb-af60-6d432bbd273a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GraphicsEngine\RenderSystem\SwapChain">
+      <UniqueIdentifier>{4d64d685-b4fb-48e2-98a8-f764a141202d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GraphicsEngine\RenderSystem\VertexBuffer">
+      <UniqueIdentifier>{af9a8599-c2f0-4071-a1d2-f567b72b38bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GraphicsEngine\RenderSystem\VertexShader">
+      <UniqueIdentifier>{36d9f8e3-2bef-4150-8d4d-41b6b10fa4c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GraphicsEngine\ResourceManager">
+      <UniqueIdentifier>{480df6c6-c9c6-41d9-a621-49470051ebaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GraphicsEngine\ResourceManager\MeshManager">
+      <UniqueIdentifier>{8b08e6f8-81e8-4467-b8e9-2d524d71d0cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GraphicsEngine\ResourceManager\TextureManager">
+      <UniqueIdentifier>{16118109-df87-44fa-9bf0-5bdfe91837ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math">
+      <UniqueIdentifier>{d9f7ea12-a775-46eb-94b1-b8a1c08bff5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\InputSystem">
+      <UniqueIdentifier>{d7bffd94-b471-4cbd-995f-4b8b632a71eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\WindowingSystem">
+      <UniqueIdentifier>{3d555799-2222-401e-9058-3ebf320e190b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

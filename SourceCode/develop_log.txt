@@ -1,0 +1,21 @@
+Added functions:
+1. Highlight selected bunny
+2. Draw text added frame number and frame time
+3. Read initial(fixed) vertex/constant info from D3D vertex/constant buffer
+4. Update transformed vertex position info from local variables
+
+modified file list:
+AppWindow.cpp
+AppWindow.h
+BunnyPShader.hlsl
+BunnyVShader.hlsl
+PixelShader.hlsl
+VertexShader.hlsl
+ConstantBuffer.cpp
+ConstantBuffer.h
+DeviceContext.cpp
+DeviceContext.h
+VertexBuffer.cpp
+VertexBuffer.h
+Matrix4x4.h
+Vector3D.h
