@@ -1,0 +1,6 @@
+-Xuan Liu
+two things to notice:
+1. disable release c++ optimization (might cause some code skipped during execution)
+2. returned collision_pairs contain Vector2D of two float number, they are actually indices, and need to be convert back to int when used for query
+
+===================================================================================================================================================
