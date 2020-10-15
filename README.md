@@ -1,8 +1,8 @@
 # CollisionDetection
 ## Requirement
 1. A D3D11 capable graphics card with following driver versions:
-NVIDIA: GeForce Game Ready Driver 372.90 or above;
-AMD: Radeon Software Version 16.9.1 or above;
+* NVIDIA: GeForce Game Ready Driver 372.90 or above;
+* AMD: Radeon Software Version 16.9.1 or above;
 2. To build the demo the following is required:
 Visual Studio 2019
 
@@ -49,6 +49,8 @@ Statue
 
 ![alt text](https://github.com/Sission/CollisionDetection/blob/main/Images/GUI.png)
 ## Result
+
+
 ## References
 [1] PardCode, C++ 3D Game Tutorial Series, (2020), GitHub repository, https://github.com/PardCode/CPP-3D-Game-Tutorial-Series.
 
